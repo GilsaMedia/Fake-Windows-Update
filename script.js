@@ -3,7 +3,7 @@ const percent_text= document.getElementById('update-percent')
 const text= document.getElementById('text')
 
 function increasePercent() {
-    if(percent + 1 < 100){
+    if(percent + 1){
         let rand = getRandomNumber(1, 5);
         if(percent > 68 && percent + rand < 100) {
             percent += rand
